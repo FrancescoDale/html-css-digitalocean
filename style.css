@@ -3,11 +3,29 @@ body {
     padding-top: 70px;
 }
 
+nav {
+    background-color: #FFFFFF;
+}
 
+.navbar-upper {
+    padding: 8px 10px;
+}
 .navbar-upper span {
     background-color: #00D7D2;
     color: #019BA7;
     border-radius: 5px;
     padding: 9px 8px;
     margin: 0px 10px 0px 0px;
+}
+
+.navbar-upper a {
+    color: #5b6987;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.navbar-upper a:hover {
+    color: #3086FF;
 }
