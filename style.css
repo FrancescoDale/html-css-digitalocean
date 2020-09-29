@@ -8,22 +8,27 @@ nav {
 }
 
 .navbar-upper {
-    padding: 8px 10px;
+    padding: 15px 10px;
 }
 .navbar-upper span {
     background-color: #00D7D2;
-    color: #019BA7;
+    color: #033661;
     border-radius: 5px;
-    padding: 9px 8px;
-    margin: 0px 10px 0px 0px;
+    padding: 5px 3px;
+    margin-right: 10px;
 }
 
 .navbar-upper a {
-    color: #5b6987;
-    padding-left: 25px;
     text-decoration: none;
     font-size: 12px;
-    line-height: 1.5;
+    font-weight: bold;
+    color: #5B6987;
+}
+
+.navbar-right a {
+
+    padding-left: 25px;
+
 }
 
 .navbar-upper a:hover {
