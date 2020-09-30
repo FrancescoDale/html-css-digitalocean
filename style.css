@@ -14,8 +14,10 @@ nav {
     background-color: #00D7D2;
     color: #033661;
     border-radius: 5px;
-    padding: 5px 3px;
+    padding: 5px 8px;
     margin-right: 10px;
+    font-size: 9px;
+    font-weight: bold;
 }
 
 .navbar-upper a {
