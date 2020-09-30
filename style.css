@@ -9,7 +9,9 @@ nav {
 
 .navbar-upper {
     padding: 15px 10px;
+    border-bottom: 1px solid grey;
 }
+
 .navbar-upper span {
     background-color: #00D7D2;
     color: #033661;
@@ -28,9 +30,7 @@ nav {
 }
 
 .navbar-right a {
-
     padding-left: 25px;
-
 }
 
 .navbar-upper a:hover {
