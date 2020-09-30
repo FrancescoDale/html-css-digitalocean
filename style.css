@@ -35,11 +35,6 @@ a, a:hover {
     color: #5B6987;
 }
 
-.navbar-brand {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 .navbar-brand img {
     max-height: 100%;
 }
@@ -47,10 +42,10 @@ a, a:hover {
 .navbar-lower li>a {
     font-size: 16px;
     font-weight: bold;
-    color: #0F2657;
+    color: #102758;
 }
 
-.navbar-upper a:hover, .navbar-lower a:hover {
+.navbar-upper a:hover {
     color: #3086FF;
 }
 
@@ -72,3 +67,20 @@ a, a:hover {
     background-color: #006AFF;
     color: #FFF;
 }
+
+
+/************************************************/
+
+#jumbotron {
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-color: #0069ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    color: white;
+}
+
+/* .jumbotron.label {
+    width: 100%;
+} */
