@@ -7,6 +7,9 @@ nav {
     background-color: #FFFFFF;
 }
 
+.navbar {
+    margin: 0;
+}
 .navbar-upper {
     padding: 15px 10px;
     border-bottom: 1px solid grey;
@@ -35,4 +38,8 @@ nav {
 
 .navbar-upper a:hover {
     color: #3086FF;
+}
+
+.navbar-lower {
+    margin-top: 0;
 }
