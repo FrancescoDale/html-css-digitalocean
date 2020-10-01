@@ -114,6 +114,15 @@ a, a:hover {
     font-weight: bold;
 }
 
+
+#jumbotron .panel {
+    background-color: #FFF;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    width: 100%; 
+}
+
 #jumbotron .panel-title {
     color: #031B4E;
     background-color: #F3F5F9;
@@ -122,13 +131,6 @@ a, a:hover {
     padding: 15px;
     width: 100%;
     border-color: #DDD;
-}
-
-#jumbotron .panel {
-    background-color: #FFF;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    border: 1px solid transparent;
 }
 
 #jumbotron .panel-body .btn-primary {
