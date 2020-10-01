@@ -113,3 +113,21 @@ a, a:hover {
     font-size: 52px;
     font-weight: bold;
 }
+
+#jumbotron .panel-title {
+    color: #031B4E;
+    background-color: #F3F5F9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    border-color: #DDD;
+}
+
+#jumbotron .panel {
+    background-color: #FFF;
+    width: 70%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
