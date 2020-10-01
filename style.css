@@ -139,8 +139,13 @@ a, a:hover {
 
 #jumbotron .panel-body .btn-primary {
     background-color: #006AFF;
+    font-weight: bold;
 }
 
 #jumbotron .panel-body .btn-primary:hover {
     background-color: #1633FF;
+}
+
+#jumbotron .panel-footer {
+    width: 100%;
 }
