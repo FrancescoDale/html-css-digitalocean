@@ -87,7 +87,6 @@ a, a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 400px; */
     padding: 120px 0px;
     color: white;
 }
@@ -121,19 +120,17 @@ a, a:hover {
 
 #jumbotron .panel {
     background-color: #FFF;
-    border-radius: 6px;
+    border-radius: 3px;
     margin-bottom: 10px;
     border: 1px solid transparent;
-    width: 100%;
 }
 
 #jumbotron .panel-title {
     color: #031B4E;
     background-color: #F3F5F9;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    width: 100%;
     border-color: #DDD;
 }
 
@@ -146,6 +143,36 @@ a, a:hover {
     background-color: #1633FF;
 }
 
-#jumbotron .panel-footer {
+#jumbotron .panel .panel-footer, .panel-title {
     width: 100%;
+}
+
+#jumbotron .form-control {
+    font-size: 16px;
+}
+
+#jumbotron .panel-footer button {
+    display: inline-block;
+}
+
+/**********************************/
+
+.business-solutions {
+    background-color: #F3F5F9;
+    padding: 64px 24px;
+    color: #696987;
+}
+
+.business-solutions h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.business-solution a {    
+    color: #0069FF;
+}
+
+.business-solution a:hover {
+    color: #5DABFC;
 }
