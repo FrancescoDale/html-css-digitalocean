@@ -130,3 +130,11 @@ a, a:hover {
     margin-bottom: 10px;
     border: 1px solid transparent;
 }
+
+#jumbotron .panel-body .btn-primary {
+    background-color: #006AFF;
+}
+
+#jumbotron .panel-body .btn-primary:hover {
+    background-color: #1633FF;
+}
