@@ -180,20 +180,21 @@ a, a:hover {
 /********************************************/
 
 #deploy {
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
-#deploy h2 {
+#deploy h2, #carusel h2 {
     color: #031B4E;
     margin-bottom: 30px;
     font-size: 32px;
     font-weight: bold;
 }
 
-#deploy h3 {
+#deploy h3, #carusel h3 {
     color: #5B6987;
     font-size: 20px;
-    padding-bottom: 60px;
+    padding: 20px 200px;
+    
 }
 
 #deploy li {
@@ -219,4 +220,15 @@ a, a:hover {
     margin-top: 25px;
     margin-bottom: 10px;
     text-align: left;
+}
+
+/*************************************************/
+
+#carusel {
+    padding: 50px 0;
+    background-color: #F3F5F9;
+}
+
+#carusel {
+
 }
