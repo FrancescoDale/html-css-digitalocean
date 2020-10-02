@@ -151,7 +151,7 @@ a, a:hover {
     font-size: 16px;
 }
 
-#jumbotron .panel-footer button {
+#jumbotron .panel-footer>.form-group {
     display: inline-block;
 }
 
