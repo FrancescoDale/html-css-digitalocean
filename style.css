@@ -176,3 +176,22 @@ a, a:hover {
 .business-solutions a:hover {
     color: #5DABFC;
 }
+
+/********************************************/
+
+#deploy {
+    padding: 40px 0;
+}
+
+#deploy h2 {
+    color: #031B4E;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#deploy p {
+    color: #5B6987;
+    padding: 0 200px;
+    font-size: 20px;
+}
