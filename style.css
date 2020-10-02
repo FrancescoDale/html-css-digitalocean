@@ -185,14 +185,38 @@ a, a:hover {
 
 #deploy h2 {
     color: #031B4E;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     font-size: 32px;
     font-weight: bold;
 }
 
-#deploy p {
+#deploy h3 {
     color: #5B6987;
-    padding: 0 200px;
     font-size: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 60px;
+}
+
+#deploy li {
+    list-style: none;
+}
+
+#deploy .btn {
+    padding-bottom: 15px;
+    text-align: left;
+    border-style: none;
+    text-transform: capitalize;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#deploy .btn:active, .btn:hover {
+    border-left: 2px solid blue;
+    color: #031B4E;
+}
+
+#deploy h4 {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
 }
