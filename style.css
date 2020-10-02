@@ -183,7 +183,7 @@ a, a:hover {
     padding: 50px 0;
 }
 
-#deploy h2, #carusel h2 {
+#deploy h2, #carusel h2, #built_business h2 {
     color: #031B4E;
     margin-bottom: 30px;
     font-size: 32px;
@@ -194,7 +194,7 @@ a, a:hover {
     color: #5B6987;
     font-size: 20px;
     padding: 20px 50px;
-
+    margin-bottom: 35px;
 }
 
 #deploy li {
@@ -227,8 +227,37 @@ a, a:hover {
 #carusel {
     padding: 50px 0;
     background-color: #F3F5F9;
+    position: relative;
 }
 
-#carusel {
+#carousel .fa-long-arrow-alt-left {
+    position: absolute;
+    left: 200px;
+    z-index: 2;
+    font-size: 40px;
+    color: #696987;
+}
 
+
+#carousel .fa-long-arrow-alt-right {
+    position: absolute;
+    right: 200px;
+    z-index: 2;
+    font-size: 40px;
+    color: #696987;
+}
+
+#carusel img {
+    width: 90%;
+}
+
+#carusel .slider {
+    color: #3B8BFE;
+    margin: 25px 0 25px 0;
+}
+
+/***************************************************/
+
+#built_business {
+    padding: 50px 0;
 }
