@@ -307,8 +307,10 @@ a, a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #FFF;
+}
 
+#services4customers h2, h3, p {
+    color: #FFF;
 }
 
 #services4customers h2 {
@@ -319,5 +321,33 @@ a, a:hover {
 
 #services4customers h3 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+#services4customers p {
+    font-size: 14px;
+}
+
+#services4customers a {
+    color: #00D7D2;
+}
+
+#services4customers a:hover {
+    color:#031BBA;
+}
+
+.portion1 {
+    width: 20%;
+}
+
+.portion2 {
+    width: 50%;
+}
+
+.portion3 {
+    width: 20%;
+}
+
+#services4customers .portion1, .portion2, .portion3 {
+    display: inline-block;
 }
