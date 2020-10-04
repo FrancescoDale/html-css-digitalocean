@@ -310,3 +310,14 @@ a, a:hover {
     color: #FFF;
 
 }
+
+#services4customers h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#services4customers h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
