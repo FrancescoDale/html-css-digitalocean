@@ -216,6 +216,7 @@ a, a:hover {
 
 #deploy li {
     list-style: none;
+    display: block;
 }
 
 #deploy .btn {
@@ -309,7 +310,7 @@ a, a:hover {
     background-size: cover;
 }
 
-#services4customers h2, h3, p {
+#services4customers h2, h3 {
     color: #FFF;
 }
 
@@ -326,6 +327,17 @@ a, a:hover {
 
 #services4customers p {
     font-size: 14px;
+    color: grey;
+    font-weight: lighter;
+}
+
+#services4customers ul {
+    width: 100%;
+}
+
+#services4customers span {
+    color: #FFF;
+    font-weight: bold;
 }
 
 #services4customers a {
@@ -336,16 +348,12 @@ a, a:hover {
     color:#031BBA;
 }
 
-.portion1 {
+#services4customers .portion1, .portion3 {
     width: 20%;
 }
 
-.portion2 {
+#services4customers .portion2 {
     width: 50%;
-}
-
-.portion3 {
-    width: 20%;
 }
 
 #services4customers .portion1, .portion2, .portion3 {
