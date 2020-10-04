@@ -200,14 +200,14 @@ a, a:hover {
     padding: 50px 0;
 }
 
-#deploy h2, #carusel h2, #built_business h2 {
+#deploy h2, #carusel h2, #built_business h2, #devteams h2 {
     color: #031B4E;
     margin-bottom: 30px;
     font-size: 32px;
     font-weight: bold;
 }
 
-#deploy h3, #carusel h3 {
+#deploy h3, #carusel h3, #devteams h3 {
     color: #5B6987;
     font-size: 20px;
     padding: 20px 50px;
@@ -358,4 +358,43 @@ a, a:hover {
 
 #services4customers .portion1, .portion2, .portion3 {
     display: inline-block;
+}
+
+/*********************************************/
+
+#devteams {
+    padding: 50px 0;
+    background-color: #F3F5F9;
+}
+
+#devteams p:nth-of-type(2) {
+    font-size: 35px;
+    color: grey;
+}
+
+#devteams .rockerbox {
+    background-color: #FFF;
+    padding: 50px 100px;
+}
+
+#devteams .rockerbox a {
+    font-size: 18px;
+    color: #0069FF;
+}
+
+#devteams .rockerbox a:hover {
+    color: #5DABFC;
+}
+
+#devteams .rockerbox img:first-of-type {
+    width: 200px;
+}
+
+#devteams .rockerbox img:nth-of-type(2) {
+    width: 20px;
+}
+
+#devteams small:first-of-type {
+    font-size: 16px;
+    color: #5B6987;
 }
